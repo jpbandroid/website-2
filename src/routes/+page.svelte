@@ -46,10 +46,10 @@
                 <Fluent.TextBlock variant="subtitle">UltraTextEdit UWP+</Fluent.TextBlock>
         </h1>
         <h2>
-                <Fluent.TextBlock variant="body">UTE UWP Plus is the next generation of modern text editing software on Windows! Major features include compliance to the latest Fluent Design guidelinesand best practices as well as always using an up-to-date version of WinUI.</Fluent.TextBlock>
+                <Fluent.TextBlock variant="body">UTE UWP Plus is the next generation of modern text editing software on Windows! Major features include compliance to the latest Fluent Design guidelines and best practices as well as always using an up-to-date version of WinUI.</Fluent.TextBlock>
         </h2>
         <h3>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='';">Learn more (coming soon)</Fluent.Button>
+          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/ivirius-text-editor-plus';">Learn more</Fluent.Button>
         </h3>
 </section>
 
