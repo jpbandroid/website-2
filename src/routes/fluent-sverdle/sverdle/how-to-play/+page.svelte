@@ -1,3 +1,8 @@
+<script>
+	import * as Fluent from "fluent-svelte";
+	import "fluent-svelte/theme.css";
+</script>
+
 <svelte:head>
 	<title>How to play Sverdle</title>
 	<meta name="description" content="How to play Sverdle" />

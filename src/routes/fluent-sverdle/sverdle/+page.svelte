@@ -1,4 +1,6 @@
 <script>
+		import * as Fluent from "fluent-svelte";
+		import "fluent-svelte/theme.css";
 	import { confetti } from '@neoconfetti/svelte';
 	import { enhance } from '$app/forms';
 
