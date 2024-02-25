@@ -9,8 +9,8 @@
 
 <!--Head-->
 <svelte:head>
-	<title>Ivirius</title>
-	<meta name="description" content="Ivirius official website"/>
+	<title>UltraTextEdit UWP Plus</title>
+	<meta name="description" content="Professional text editor app for Windows 11" />
 </svelte:head>
 
 <!--Navbar-->
@@ -41,47 +41,28 @@
 <!--Title-->
 <section class="centered-section">
 	<h1>
-		<Fluent.TextBlock variant="titleLarge">Ivirius</Fluent.TextBlock>
+		<Fluent.TextBlock variant="titleLarge">UltraTextEdit UWP Plus</Fluent.TextBlock>
 	</h1>
  <h2>
-		<Fluent.TextBlock variant="body" align="center">We made the #1 WordPad app in the Microsoft Store, which is available for Windows 10 and 11.</Fluent.TextBlock>
+		<Fluent.TextBlock variant="body" align="center">UTE UWP Plus is the next generation of modern text editing software on Windows!</Fluent.TextBlock>
  </h2>
 </section>
 
 <!--Download buttons-->
 <section class="centered-section">
 	<h2>
-		<Fluent.Button variant="accent" onclick="window.location.href='https://apps.microsoft.com/detail/9N4T9H9182J5?hl=en-US';">Download Ivirius Text Editor Plus</Fluent.Button>
-		<Fluent.Button style="margin: 15px">Download Ivirius Text Editor</Fluent.Button>
-		<Fluent.Button>Download Ivirius Hub</Fluent.Button>
+		<Fluent.Button variant="accent" onclick="window.location.href='';">Download (coming soon)</Fluent.Button>
+		<Fluent.Button variant="hyperlink" style="margin: 15px" onclick="window.location.href='https://github.com/jpbandroid/UTE-UWP-Plus';">GitHub</Fluent.Button>
 	</h2>
 </section>
-
-<!--InfoBar-->
- <section class="margin-section">
-	<h2>
-		<Fluent.InfoBar severity="caution" title="Important!" message="This is the only finished page of this website. The rest are actively being worked on. Thank you for your patience." style="max-width:550px;"/>
-	</h2>
-</section>
-
-<!--Content dialog-->
- <Fluent.ContentDialog bind:open title="Warning!">
-   This website is experimental and still in its early stages of development. Please report any bugs to us via email at iviriuscompany.main@gmail.com.
-	<Fluent.Button slot="footer" variant="accent" on:click={() => (open = false)}>Proceed</Fluent.Button>
- </Fluent.ContentDialog>
-
-<!--Ivirius Text Editor Plus-->
+ 
 <section class="margin-section">
-        <h1>
-                <Fluent.TextBlock variant="subtitle">Ivirius Text Editor Plus</Fluent.TextBlock>
-        </h1>
-        <h2>
-                <Fluent.TextBlock variant="body">The Ivirius Text Editor Plus is a powerful and user-friendly editor for Windows 11. It features advanced RTF editing with AI assistant Zippy, tabs for multitasking, and a setup with a Win32 look. Enjoy the best of both worlds with CrimsonUI and WinUI integration. The autosave feature ensures your work is safe. Download it from the Microsoft Store for the ultimate text editing experience.</Fluent.TextBlock>
-        </h2>
-        <h3>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/ivirius-text-editor-plus';">Learn more</Fluent.Button>
-        </h3>
-</section>
+	<h1>
+		<Fluent.TextBlock variant="subtitle">Feature-complete</Fluent.TextBlock>
+ </h1>
+ <h2>
+		<Fluent.TextBlock variant="body">UTE UWP Plus has all the features you would expect from a text editor, as well as some extra features and customisation options.</Fluent.TextBlock>
+	</h2>
 
 <!--Ivirius Hub-->
 <section class="margin-section">
@@ -98,33 +79,14 @@
 
 <!--CrimsonUI-->
 <section class="margin-section">
-        <h1>
-                <Fluent.TextBlock variant="subtitle">CrimsonUI</Fluent.TextBlock>
-        </h1>
-        <h2>
-                <Fluent.TextBlock variant="body">CrimsonUI is a dynamic UI library designed for UWP and Windows App SDK. Rooted in WinUI and influenced by FireCube's GlowUI, CrimsonUI seamlessly blends default WinUI elements with glowing, shiny components. Immerse yourself in stunning animations, ensuring a very smooth and beautiful user experience. Elevate your app's visual appeal with the elegance of CrimsonUI.</Fluent.TextBlock>
-        </h2>
-        <h3>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/crimsonui';">Learn more</Fluent.Button>
-        </h3>
-</section>
-
-<!--Bottom bar-->
-<section style="padding-top: 10px; padding-bottom: 10px; padding-left: 25px; background: rgba(25, 25, 25, 0.15); border-top: 1px solid rgba(205, 205, 205, 0.25); display: flex; flex-direction: column; align-items: flex-start;">
-  <Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
-    Partners
-  </Fluent.TextBlock>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://www.spoo.me';" style="margin-top: 10px; margin-bottom: 10px;">spoo.me URL shortener</Fluent.Button>
-  <Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
-    Developers and contributors
-  </Fluent.TextBlock>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://website-2-sigma.vercel.app/';" style="margin-top: 10px; margin-bottom: 10px;">ErrorTek</Fluent.Button>
-  <Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
-    Website
-  </Fluent.TextBlock>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://fluent-svelte.vercel.app';" style="margin-top: 10px; margin-bottom: 10px;">Fluent Svelte</Fluent.Button>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://www.vercel.com';">Vercel</Fluent.Button>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/about';" style="margin-top: 10px; margin-bottom: 10px;">About</Fluent.Button>
+	<h1>
+		<Fluent.TextBlock variant="subtitle">Modern design</Fluent.TextBlock>
+ </h1>
+ <h2>
+		<Fluent.TextBlock variant="body">UTE UWP Plus uses the latest version of WinUI (and will add an option to use </Fluent.TextBlock>
+<Fluent.Button style="padding: 0px" variant="hyperlink"  onclick="window.location.href='https://errortek.vercel.app/crimsonui';">CrimsonUI</Fluent.Button>
+<Fluent.TextBlock variant="body"> in the future) for the main layout, making it consistent with the Windows 11 design.</Fluent.TextBlock>
+	</h2>
 </section>
 
 <!--Styles-->

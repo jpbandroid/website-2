@@ -9,51 +9,36 @@
 
 <!--Head-->
 <svelte:head>
-	<title>Ivirius</title>
+	<title>ErrorTek's Website</title>
 	<meta name="description" content="Ivirius official website"/>
 </svelte:head>
-
-<!--Navbar-->
-<section style="display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-start; padding: 10px; background: var(--fds-solid-background-base); border-bottom: 1px solid rgba(205, 205, 205, 0.25);">
-
-  <!--Favicon-->
-  <Fluent.PersonPicture src="https://cdn.discordapp.com/attachments/1137161703000375339/1188990519418834994/Ivirius.png?ex=65dd2236&is=65caad36&hm=f5647520279749bf9811d7908e38f0586bedeef666f65ccfee30fb727a36471b" style="width: 35px; height: 35px; margin-right: 15px; margin-left: 15px; margin-top: 18px; align-items: center;"/>
-
-  <!--Title-->
-  <Fluent.TextBlock variant="bodyLarge" style="margin-right: 25px; align-items: center;">Ivirius</Fluent.TextBlock>
-
-  <!--Home-->
-  <Fluent.Button style="height: 32px; margin-right: 15px; align-items: center;">Home</Fluent.Button>
   
-  <!--CrimsonUI-->
-  <Fluent.Button style="height: 32px; margin-right: 15px; align-items: center;" variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/crimsonui';">CrimsonUI</Fluent.Button>
+<section style="display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-start; padding: 10px; background: rgba(25, 25, 25, 0.15); border-bottom: 1px solid rgba(205, 205, 205, 0.25);">
+  <Fluent.PersonPicture src="https://yt3.googleusercontent.com/82KcuEjHraSZUui5_XY4uQj0uUgtcFr1G2DKlpGXyPIlJqd8uAunQqM5mG95sXdTbfqSqL1Npw=s176-c-k-c0x00ffffff-no-rj" style="width: 35px; height: 35px; margin-right: 15px; margin-left: 15px; margin-top: 18px; align-items: center;"/>
 
-  <!--Documentations-->
-  <Fluent.Button style="height: 32px; margin-right: 15px; align-items: center;" variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/documentations';">Documentations</Fluent.Button>
-
-  <!--Contact us-->
-  <Fluent.Button style="height: 32px; margin-right: 15px; align-items: center;" variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/contact';">Contact us</Fluent.Button>
-
-  <!--About-->
-  <Fluent.Button style="height: 32px; margin-right: 15px; align-items: center;" variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/about';">About</Fluent.Button>
+  <Fluent.Button style="height: 32px; margin-right: 15px; align-items: center;">Home</Fluent.Button>
+  <Fluent.Button style="height: 32px; margin-right: 15px; align-items: center;" variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/crimsonui';">CrimsonUI</Fluent.Button>
+  <Fluent.Button style="height: 32px; margin-right: 15px; align-items: center;" variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/documentations';">Documentations</Fluent.Button>
+  <Fluent.Button style="height: 32px; margin-right: 15px; align-items: center;" variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/contact';">Contact</Fluent.Button>
+  <Fluent.Button style="height: 32px; margin-right: 15px; align-items: center;" variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/about';">About</Fluent.Button>
 </section>
 
 <!--Title-->
 <section class="centered-section">
 	<h1>
-		<Fluent.TextBlock variant="titleLarge">Ivirius</Fluent.TextBlock>
+		<Fluent.TextBlock variant="titleLarge"></Fluent.TextBlock>
 	</h1>
  <h2>
-		<Fluent.TextBlock variant="body" align="center">We made the #1 WordPad app in the Microsoft Store, which is available for Windows 10 and 11.</Fluent.TextBlock>
+		<Fluent.TextBlock variant="body" align="center">Welcome to my website! I'm just an average tech YouTuber with 148 subscribers, as well as the developer of a few projects, including UTE UWP, WIndivs, jpbROM and many others, as well as co-developing Ivirius Text Editor, Ivirius Hub and the CrimsonUI UI library!</Fluent.TextBlock>
  </h2>
 </section>
 
 <!--Download buttons-->
 <section class="centered-section">
 	<h2>
-		<Fluent.Button variant="accent" onclick="window.location.href='https://apps.microsoft.com/detail/9N4T9H9182J5?hl=en-US';">Download Ivirius Text Editor Plus</Fluent.Button>
-		<Fluent.Button style="margin: 15px">Download Ivirius Text Editor</Fluent.Button>
-		<Fluent.Button>Download Ivirius Hub</Fluent.Button>
+		<Fluent.Button variant="accent" onclick="window.location.href='';">Download UTE UWP Plus</Fluent.Button>
+		<Fluent.Button style="margin: 15px">Download UTE UWP</Fluent.Button>
+		<Fluent.Button>Download Ivirius Hub (CrimsonUI demo app)</Fluent.Button>
 	</h2>
 </section>
 
@@ -67,26 +52,25 @@
 <!--Ivirius Text Editor Plus-->
 <section class="margin-section">
         <h1>
-                <Fluent.TextBlock variant="subtitle">Ivirius Text Editor Plus</Fluent.TextBlock>
+                <Fluent.TextBlock variant="subtitle">UltraTextEdit UWP+</Fluent.TextBlock>
         </h1>
         <h2>
-                <Fluent.TextBlock variant="body">The Ivirius Text Editor Plus is a powerful and user-friendly editor for Windows 11. It features advanced RTF editing with AI assistant Zippy, tabs for multitasking, and a setup with a Win32 look. Enjoy the best of both worlds with CrimsonUI and WinUI integration. The autosave feature ensures your work is safe. Download it from the Microsoft Store for the ultimate text editing experience.</Fluent.TextBlock>
+                <Fluent.TextBlock variant="body">UTE UWP Plus is the next generation of modern text editing software on Windows! Major features include compliance to the latest Fluent Design guidelines and best practices as well as always using an up-to-date version of WinUI.</Fluent.TextBlock>
         </h2>
         <h3>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/ivirius-text-editor-plus';">Learn more</Fluent.Button>
+          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/ivirius-text-editor-plus';">Learn more</Fluent.Button>
         </h3>
 </section>
 
-<!--Ivirius Hub-->
 <section class="margin-section">
         <h1>
-                <Fluent.TextBlock variant="subtitle">Ivirius Hub</Fluent.TextBlock>
+                <Fluent.TextBlock variant="subtitle">UltraTextEdit UWP</Fluent.TextBlock>
         </h1>
         <h2>
-                <Fluent.TextBlock variant="body">The Ivirius Hub is the sample app from Ivirius, offering the Ivirius.Windowing API for UWP child windows and CrimsonUI XAML code. Experience a fast and fluid sample app that showcases the capabilities of our well built tools. This versatile UWP and Windows App SDK hub is available for download on the Microsoft Store.</Fluent.TextBlock>
+                <Fluent.TextBlock variant="body">UTE UWP is a modern text editor with the Fluent Design guidelines in mind for all your text editing needs! Plus, it gets preview updates via a preview system and monthly updates with bug fixes and library updates every month!</Fluent.TextBlock>
         </h2>
         <h3>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/ivirius-hub';">Learn more</Fluent.Button>
+          <Fluent.Button variant="hyperlink" onclick="window.location.href='';">Learn more (coming soon)</Fluent.Button>
         </h3>
 </section>
 
@@ -99,7 +83,7 @@
                 <Fluent.TextBlock variant="body">CrimsonUI is a dynamic UI library designed for UWP and Windows App SDK. Rooted in WinUI and influenced by FireCube's GlowUI, CrimsonUI seamlessly blends default WinUI elements with glowing, shiny components. Immerse yourself in stunning animations, ensuring a very smooth and beautiful user experience. Elevate your app's visual appeal with the elegance of CrimsonUI.</Fluent.TextBlock>
         </h2>
         <h3>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/crimsonui';">Learn more</Fluent.Button>
+          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/crimsonui';">Learn more</Fluent.Button>
         </h3>
 </section>
 
