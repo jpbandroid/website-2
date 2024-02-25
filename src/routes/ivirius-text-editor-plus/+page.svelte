@@ -55,14 +55,15 @@
 		<Fluent.Button variant="hyperlink" style="margin: 15px" onclick="window.location.href='https://github.com/jpbandroid/UTE-UWP-Plus';">GitHub</Fluent.Button>
 	</h2>
 </section>
- 
+
 <section class="margin-section">
 	<h1>
 		<Fluent.TextBlock variant="subtitle">Feature-complete</Fluent.TextBlock>
- </h1>
- <h2>
+	</h1>
+	<h2>
 		<Fluent.TextBlock variant="body">UTE UWP Plus has all the features you would expect from a text editor, as well as some extra features and customisation options.</Fluent.TextBlock>
 	</h2>
+</section>
 
 <!--Ivirius Hub-->
 <section class="margin-section">
