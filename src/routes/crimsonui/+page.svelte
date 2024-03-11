@@ -63,34 +63,35 @@
                 <Fluent.TextBlock variant="body">CrimsonUI’s design leverages the visual appeal of glowing panels and accent color gradients to create a dynamic 3D appearance, reminiscent of a neon glow. This effect adds depth and a touch of modernity to the user interface, ensuring that applications not only function well but also stand out with a contemporary, eye-catching aesthetic. The use of gradients and light effects in CrimsonUI controls helps to bring interfaces to life, making them more engaging and visually stimulating for users.</Fluent.TextBlock>
         </h2>
 </section>
-<!--Bottom bar-->
-<section style="padding-top: 10px; padding-bottom: 10px; padding-left: 25px; background: var(--fds-solid-background-base); border-top: 1px solid rgba(205, 205, 205, 0.25); display: flex; flex-direction: column; align-items: flex-start;">
-  <Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
-    Partners
-  </Fluent.TextBlock>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://www.spoo.me';" style="margin-top: 10px; margin-bottom: 10px;">spoo.me URL shortener</Fluent.Button>
-  <Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
-    Developers and contributors
-  </Fluent.TextBlock>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://website-2-sigma.vercel.app/';" style="margin-top: 10px; margin-bottom: 10px;">ErrorTek</Fluent.Button>
-  <Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
-    Website
-  </Fluent.TextBlock>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://fluent-svelte.vercel.app';" style="margin-top: 10px; margin-bottom: 10px;">Fluent Svelte</Fluent.Button>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://www.vercel.com';">Vercel</Fluent.Button>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/about';" style="margin-top: 10px; margin-bottom: 10px;">About</Fluent.Button>
-</section>
 
 <section class="margin-section">
-        <h1>
-                <Fluent.TextBlock variant="subtitle">CrimsonUI</Fluent.TextBlock>
-        </h1>
-        <h2>
-                <Fluent.TextBlock variant="body">CrimsonUI is a dynamic UI library designed for UWP and Windows App SDK. Rooted in WinUI and influenced by FireCube's GlowUI, CrimsonUI seamlessly blends default WinUI elements with glowing, shiny components. Immerse yourself in stunning animations, ensuring a very smooth and beautiful user experience. Elevate your app's visual appeal with the elegance of CrimsonUI.</Fluent.TextBlock>
-        </h2>
-        <h3>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/crimsonui';">Learn more</Fluent.Button>
-        </h3>
+	<h1>
+		<Fluent.TextBlock variant="subtitle">CrimsonUI</Fluent.TextBlock>
+	</h1>
+	<h2>
+		<Fluent.TextBlock variant="body">CrimsonUI is a dynamic UI library designed for UWP and Windows App SDK. Rooted in WinUI and influenced by FireCube's GlowUI, CrimsonUI seamlessly blends default WinUI elements with glowing, shiny components. Immerse yourself in stunning animations, ensuring a very smooth and beautiful user experience. Elevate your app's visual appeal with the elegance of CrimsonUI.</Fluent.TextBlock>
+	</h2>
+	<h3>
+		<Fluent.Button variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/crimsonui';">Learn more</Fluent.Button>
+	</h3>
+</section>
+
+<!--Bottom bar-->
+<section style="padding-top: 10px; padding-bottom: 10px; padding-left: 25px; background: var(--fds-solid-background-base); border-top: 1px solid rgba(205, 205, 205, 0.25); display: flex; flex-direction: column; align-items: flex-start;">
+	<Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
+		Partners
+	</Fluent.TextBlock>
+	<Fluent.Button variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app';" style="margin-top: 10px; margin-bottom: 10px;">Ivirius</Fluent.Button>
+	<Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
+		Developers and contributors
+	</Fluent.TextBlock>
+	<Fluent.Button variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/';" style="margin-top: 10px; margin-bottom: 10px;">Ivirius</Fluent.Button>
+	<Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
+		Website
+	</Fluent.TextBlock>
+	<Fluent.Button variant="hyperlink" onclick="window.location.href='https://fluent-svelte.vercel.app';" style="margin-top: 10px; margin-bottom: 10px;">Fluent Svelte</Fluent.Button>
+	<Fluent.Button variant="hyperlink" onclick="window.location.href='https://www.vercel.com';">Vercel</Fluent.Button>
+	<Fluent.Button variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/about';" style="margin-top: 10px; margin-bottom: 10px;">About</Fluent.Button>
 </section>
 
 <!--Styles-->
