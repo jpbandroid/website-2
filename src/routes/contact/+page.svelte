@@ -27,7 +27,7 @@
 <!--Title-->
 <section class="centered-section">
 	<h1>
-		<Fluent.TextBlock variant="titleLarge">Contact us</Fluent.TextBlock>
+		<Fluent.TextBlock variant="titleLarge">Contact</Fluent.TextBlock>
 	</h1>
 </section>
 
