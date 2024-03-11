@@ -26,7 +26,7 @@
     <Fluent.TextBlock variant="titleLarge">Documentations</Fluent.TextBlock>
   </h1>
  <h2>
-                <Fluent.TextBlock variant="body" align="center">Find documentations for various tools from Ivirius.</Fluent.TextBlock>
+                <Fluent.TextBlock variant="body" align="center">Find documentations for various tools that I have created or contributed to (such as CrimsonUI).</Fluent.TextBlock>
  </h2>
 </section>
 

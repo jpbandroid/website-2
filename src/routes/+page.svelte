@@ -29,7 +29,7 @@
 		<Fluent.TextBlock variant="titleLarge"></Fluent.TextBlock>
 	</h1>
  <h2>
-		<Fluent.TextBlock variant="body" align="center">Welcome to my website! I'm just an average tech YouTuber with 148 subscribers, as well as the developer of a few projects, including UTE UWP, WIndivs, jpbROM and many others, as well as co-developing Ivirius Text Editor, Ivirius Hub and the CrimsonUI UI library!</Fluent.TextBlock>
+		<Fluent.TextBlock variant="body" align="center">Welcome to my website! I'm just an average tech YouTuber with 154 subscribers, as well as the developer of a few projects, including UTE UWP, WIndivs, jpbROM and many others, as well as co-developing Ivirius Text Editor, Ivirius Hub and the CrimsonUI UI library!</Fluent.TextBlock>
  </h2>
 </section>
 
@@ -92,17 +92,17 @@
   <Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
     Partners
   </Fluent.TextBlock>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://www.spoo.me';" style="margin-top: 10px; margin-bottom: 10px;">spoo.me URL shortener</Fluent.Button>
+          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app';" style="margin-top: 10px; margin-bottom: 10px;">Ivirius</Fluent.Button>
   <Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
     Developers and contributors
   </Fluent.TextBlock>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://website-2-sigma.vercel.app/';" style="margin-top: 10px; margin-bottom: 10px;">ErrorTek</Fluent.Button>
+          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/';" style="margin-top: 10px; margin-bottom: 10px;">Ivirius</Fluent.Button>
   <Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
     Website
   </Fluent.TextBlock>
           <Fluent.Button variant="hyperlink" onclick="window.location.href='https://fluent-svelte.vercel.app';" style="margin-top: 10px; margin-bottom: 10px;">Fluent Svelte</Fluent.Button>
           <Fluent.Button variant="hyperlink" onclick="window.location.href='https://www.vercel.com';">Vercel</Fluent.Button>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/about';" style="margin-top: 10px; margin-bottom: 10px;">About</Fluent.Button>
+          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/about';" style="margin-top: 10px; margin-bottom: 10px;">About</Fluent.Button>
 </section>
 
 <!--Styles-->
