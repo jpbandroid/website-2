@@ -1,10 +1,12 @@
 <script>
-        import * as Fluent from "fluent-svelte";
-        import "fluent-svelte/theme.css";
+  //Imports
+  import * as Fluent from "fluent-svelte";
+  import "fluent-svelte/theme.css";
 </script>
 
+<!--Head-->
 <svelte:head>
-        <title>Ivirius - Documentations</title>
+        <title>ErrorTek's Website</title>
         <meta name="description" content="ET's documentation" />
 </svelte:head>
 
@@ -14,47 +16,77 @@
   <Fluent.Button style="height: 32px; margin-right: 15px; align-items: center;" variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app';">Home</Fluent.Button>
   <Fluent.Button style="height: 32px; margin-right: 15px; align-items: center;" variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/crimsonui';">CrimsonUI</Fluent.Button>
   <Fluent.Button style="height: 32px; margin-right: 15px; align-items: center;">Documentations</Fluent.Button>
-  <Fluent.Button style="height: 32px; margin-right: 15px; align-items: center;" variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/contact';">Contact us</Fluent.Button>
+  <Fluent.Button style="height: 32px; margin-right: 15px; align-items: center;" variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/contact';">Contact us</Fluent.Button>
   <Fluent.Button style="height: 32px; margin-right: 15px; align-items: center;" variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/about';">About</Fluent.Button>
 </section>
 
+<!--Title-->
 <section class="centered-section">
-        <h1>
-                <Fluent.TextBlock variant="titleLarge">Documentations</Fluent.TextBlock>
-        </h1>
+  <h1>
+    <Fluent.TextBlock variant="titleLarge">Documentations</Fluent.TextBlock>
+  </h1>
  <h2>
-                <Fluent.TextBlock variant="body" align="center">Find documentations for various tools developed by me or where I am a contributor (for example CrimsonUI)</Fluent.TextBlock>
+                <Fluent.TextBlock variant="body" align="center">Find documentations for various tools from Ivirius.</Fluent.TextBlock>
  </h2>
 </section>
 
-<section class="centered-min-section">
+<section class="margin-section">
         <h2>
-  <Fluent.ListItem disabled="true">CrimsonUI</Fluent.ListItem>
+  <Fluent.ListItem onclick="window.location.href='https://errortek.vercel.app/crimsonui';">CrimsonUI</Fluent.ListItem>
         </h2>
 
 </section>
 
-<style>
-        @import url("https://unpkg.com/fluent-svelte/theme.css");
+<!--Bottom bar-->
+<section style="padding-top: 10px; padding-bottom: 10px; padding-left: 25px; background: var(--fds-solid-background-base); border-top: 1px solid rgba(205, 205, 205, 0.25); display: flex; flex-direction: column; align-items: flex-start;">
+  <Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
+    Partners
+  </Fluent.TextBlock>
+          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app';" style="margin-top: 10px; margin-bottom: 10px;">Ivirius</Fluent.Button>
+  <Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
+    Developers and contributors
+  </Fluent.TextBlock>
+          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/';" style="margin-top: 10px; margin-bottom: 10px;">Ivirius</Fluent.Button>
+  <Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
+    Website
+  </Fluent.TextBlock>
+          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://fluent-svelte.vercel.app';" style="margin-top: 10px; margin-bottom: 10px;">Fluent Svelte</Fluent.Button>
+          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://www.vercel.com';">Vercel</Fluent.Button>
+          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/about';" style="margin-top: 10px; margin-bottom: 10px;">About</Fluent.Button>
+</section>
 
-        /* Some base styles to get things looking right. */
-        :global(body) {
-                background-color: var(--fds-solid-background-base);
-                color: var(--fds-text-primary);
-        }
-    .centered-section {
-        text-align: center;
-        margin: 25px;
-        max-width: 1800px;
-    }
-    .centered-min-section {
-        text-align: center;
-        margin: 25px;
-        max-width: 400px;
-        align: center;
-    }
-    .margin-section {
-        margin: 25px;
-        max-width: 1800px;
-    }  
+<!--Styles-->
+<style>
+  /*Import theme*/
+  @import url("https://unpkg.com/fluent-svelte/theme.css");
+
+  /* Some base styles to get things looking right. */
+  :global(body) 
+  {
+    /*Background color*/
+    background-color: var(--fds-solid-background-base);
+
+    /*Background image*/
+    background-image: url("https://cdn.discordapp.com/attachments/1141503151808184401/1210350581504278618/1000030651-safeimagekit.jpeg.png?ex=65ea3dd1&is=65d7c8d1&hm=facb30449de806bcb7bb777bd14e81dddb7bf7de9e882144896e0bc80b304153&");
+
+    /*Background color*/
+    color: var(--fds-text-primary);
+  }
+
+  /*Centered section*/
+  .centered-section 
+  {
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 1250px;
+  }
+
+  /*Left aligned centered section*/
+  .margin-section 
+  {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 1250px;
+  }
 </style>
