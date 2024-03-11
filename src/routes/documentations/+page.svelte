@@ -26,7 +26,9 @@
     <Fluent.TextBlock variant="titleLarge">Documentations</Fluent.TextBlock>
   </h1>
  <h2>
-                <Fluent.TextBlock variant="body" align="center">Find documentations for various tools that I have created or contributed to (such as CrimsonUI).</Fluent.TextBlock>
+                <Fluent.TextBlock variant="body" align="center">
+					Find documentations for various tools developed by me or where I am a contributor (for example CrimsonUI)
+				</Fluent.TextBlock>
  </h2>
 </section>
 
