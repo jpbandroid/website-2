@@ -27,18 +27,22 @@
 <!--Title-->
 <section class="centered-section">
 	<h1>
-		<Fluent.TextBlock variant="titleLarge">News/Blog</Fluent.TextBlock>
+		<Fluent.TextBlock variant="titleLarge">UTE UWP+ build 25941 to release soon!</Fluent.TextBlock>
 	</h1>
 	<h2>
-		<Fluent.TextBlock variant="body" align="center">Get the latest updates regarding my software here!</Fluent.TextBlock>
+		<Fluent.TextBlock variant="body">
+			March 13, 2024
+		</Fluent.TextBlock>
 	</h2>
-	<Fluent.Button onclick="window.location.href='https://errortek.vercel.app/news/13-3-2024';">
-		<section>
-			<Fluent.TextBlock variant="title">UTE UWP+ build 25941 to release soon!</Fluent.TextBlock>
-			<Fluent.TextBlock variant="subtitle">March 13, 2024</Fluent.TextBlock>
-			<Fluent.TextBlock variant="body-large">by jpbandroid</Fluent.TextBlock>
-		</section>
-	</Fluent.Button>
+	<h2>
+		<Fluent.TextBlock variant="body">
+			by jpb/ErrorTek/jpbandroid
+		</Fluent.TextBlock>
+	</h2>
+	<h2>
+		<Fluent.TextBlock variant="body">Hey everyone! This is my first post!<br></br>I just want to announce a quick update - that UTE UWP+ build 25941 will be released soon! Stay tuned for more information!
+	</Fluent.TextBlock>
+	</h2>
 </section>
 
 <!--Bottom bar-->
@@ -52,8 +56,12 @@
 	</Fluent.TextBlock>
 	<Fluent.Button variant="hyperlink" onclick="window.location.href='https://ivirius.vercel.app/';" style="margin-top: 10px; margin-bottom: 10px;">Ivirius</Fluent.Button>
 	<Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
+		News/Blog
+	</Fluent.TextBlock>
+	<Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
 		Website
 	</Fluent.TextBlock>
+	<Fluent.Button variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/news';" style="margin-top: 10px; margin-bottom: 10px;">News/Blog Homepage</Fluent.Button>
 	<Fluent.Button variant="hyperlink" onclick="window.location.href='https://fluent-svelte.vercel.app';" style="margin-top: 10px; margin-bottom: 10px;">Fluent Svelte</Fluent.Button>
 	<Fluent.Button variant="hyperlink" onclick="window.location.href='https://www.vercel.com';">Vercel</Fluent.Button>
 	<Fluent.Button variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/about';" style="margin-top: 10px; margin-bottom: 10px;">About</Fluent.Button>
@@ -80,7 +88,7 @@
 	/*Centered section*/
 	.centered-section
 	{
-	text-align: center;
+	text-align: left;
 	margin: 0 auto;
 	padding: 25px;
 	max-width: 1250px;
