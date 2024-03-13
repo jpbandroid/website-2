@@ -93,4 +93,10 @@
 	padding: 25px;
 	max-width: 1250px;
 	}
+
+	.blogCard {
+	border: 1px solid var(--fds-card-stroke-default);
+	border-radius: var(--fds-overlay-corner-radius);
+	background-color: var(--fds-card-background-secondary);
+	}
 </style>
