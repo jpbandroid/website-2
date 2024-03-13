@@ -58,10 +58,10 @@
 	<Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
 		News/Blog
 	</Fluent.TextBlock>
+	<Fluent.Button variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/news';" style="margin-top: 10px; margin-bottom: 10px;">News/Blog Homepage</Fluent.Button>
 	<Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
 		Website
 	</Fluent.TextBlock>
-	<Fluent.Button variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/news';" style="margin-top: 10px; margin-bottom: 10px;">News/Blog Homepage</Fluent.Button>
 	<Fluent.Button variant="hyperlink" onclick="window.location.href='https://fluent-svelte.vercel.app';" style="margin-top: 10px; margin-bottom: 10px;">Fluent Svelte</Fluent.Button>
 	<Fluent.Button variant="hyperlink" onclick="window.location.href='https://www.vercel.com';">Vercel</Fluent.Button>
 	<Fluent.Button variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/about';" style="margin-top: 10px; margin-bottom: 10px;">About</Fluent.Button>
