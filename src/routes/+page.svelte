@@ -29,7 +29,7 @@
 		<Fluent.TextBlock variant="titleLarge"></Fluent.TextBlock>
 	</h1>
  <h2>
-		<Fluent.TextBlock variant="body" align="center">Welcome to my website! I'm just an average tech YouTuber with 154 subscribers, as well as the developer of a few projects, including UTE UWP, WIndivs, jpbROM and many others, as well as co-developing Ivirius Text Editor, Ivirius Hub and the CrimsonUI UI library!</Fluent.TextBlock>
+		<Fluent.TextBlock variant="body" align="center">Welcome to my website! I'm just an average tech YouTuber with 155 subscribers, as well as the developer of a few projects, including UTE UWP, WIndivs, jpbROM and many others, as well as co-developing Ivirius Text Editor, Ivirius Hub and the CrimsonUI UI library!</Fluent.TextBlock>
  </h2>
 </section>
 
