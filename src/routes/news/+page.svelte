@@ -33,11 +33,11 @@
 		<Fluent.TextBlock variant="body" align="center">Get the latest updates regarding my software here!</Fluent.TextBlock>
 	</h2>
 	<a href='https://errortek.vercel.app/news/13-3-2024' class='blogCard'>
-		<section>
+		<div>
 			<Fluent.TextBlock variant="title">UTE UWP+ build 25941 to release soon!</Fluent.TextBlock>
 			<Fluent.TextBlock variant="subtitle">March 13, 2024</Fluent.TextBlock>
 			<Fluent.TextBlock variant="body-large">by jpbandroid</Fluent.TextBlock>
-		</section>
+		</div>
 	</a>
 </section>
 
