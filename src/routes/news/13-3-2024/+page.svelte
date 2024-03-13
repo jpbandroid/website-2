@@ -40,7 +40,7 @@
 		</Fluent.TextBlock>
 	</h2>
 	<h2>
-		<Fluent.TextBlock variant="body">Hey everyone! This is my first post!<br></br>I just want to announce a quick update - that UTE UWP+ build 25941 will be released soon! Stay tuned for more information!
+		<Fluent.TextBlock variant="body">Hey everyone! This is my first post!<br>I just want to announce a quick update - that UTE UWP+ build 25941 will be released soon! Stay tuned for more information!
 	</Fluent.TextBlock>
 	</h2>
 </section>
