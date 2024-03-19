@@ -37,7 +37,7 @@
       return;
     }
 
-		const webhookUrl = 'https://ivirius-contact-host.vercel.app/contact';
+		const webhookUrl = '';
 		const payload = new FormData();
     payload.append('email', email);
     payload.append('subject', subject);
@@ -104,7 +104,9 @@
 <!--Ivirius Text Editor Plus-->
 <section class="margin-section">
   <h1>
-<Fluent.InfoBar title="Error!" message="Message is too short." bind:openTooShortMsg />
+<Fluent.InfoBar title="Error!" severity="critical" message="Message is too short." bind:openTooShortMsg />
+	  <Fluent.InfoBar title="Error!" severity="caution" message="This area of the site is not finished yet." />
+
   </h1>
 	<h1>
 		<Fluent.TextBox
