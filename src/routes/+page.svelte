@@ -59,7 +59,7 @@
                 <Fluent.TextBlock variant="body">UTE UWP Plus is the next generation of modern text editing software on Windows! Major features include compliance to the latest Fluent Design guidelines and best practices as well as always using an up-to-date version of WinUI.</Fluent.TextBlock>
         </h2>
         <h3>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/ivirius-text-editor-plus';">Learn more</Fluent.Button>
+          <Fluent.Button variant="hyperlink" onclick="window.location.href='/ivirius-text-editor-plus';">Learn more</Fluent.Button>
         </h3>
 </section>
 
@@ -84,7 +84,7 @@
                 <Fluent.TextBlock variant="body">CrimsonUI is a dynamic UI library designed for UWP and Windows App SDK. Rooted in WinUI and influenced by FireCube's GlowUI, CrimsonUI seamlessly blends default WinUI elements with glowing, shiny components. Immerse yourself in stunning animations, ensuring a very smooth and beautiful user experience. Elevate your app's visual appeal with the elegance of CrimsonUI.</Fluent.TextBlock>
         </h2>
         <h3>
-          <Fluent.Button variant="hyperlink" onclick="window.location.href='https://errortek.vercel.app/crimsonui';">Learn more</Fluent.Button>
+          <Fluent.Button variant="hyperlink" onclick="window.location.href='/crimsonui';">Learn more</Fluent.Button>
         </h3>
 </section>
 
@@ -112,20 +112,20 @@
 	@import url("https://unpkg.com/fluent-svelte/theme.css");
 
 	/* Some base styles to get things looking right. */
-	:global(body) 
+	:global(body)
   {
     /*Background color*/
 		background-color: var(--fds-solid-background-base);
 
     /*Background image*/
-    background-image: url("https://cdn.discordapp.com/attachments/1141503151808184401/1210350581504278618/1000030651-safeimagekit.jpeg.png?ex=65ea3dd1&is=65d7c8d1&hm=facb30449de806bcb7bb777bd14e81dddb7bf7de9e882144896e0bc80b304153&");
-    
+    background-image: url("https://i.spoo.me/825520");
+
     /*Background color*/
 		color: var(--fds-text-primary);
 	}
 
   /*Centered section*/
-  .centered-section 
+  .centered-section
   {
     text-align: center;
     margin: 0 auto;
@@ -134,7 +134,7 @@
   }
 
   /*Left aligned centered section*/
-  .margin-section 
+  .margin-section
   {
     margin: 0 auto;
     padding: 25px;

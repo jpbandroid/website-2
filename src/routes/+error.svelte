@@ -22,7 +22,7 @@
 <h1>
 <Fluent.ContentDialog open="true" title="Uh oh...">
 No one's here. Try checking the URL and try again.
-                <Fluent.Button variant="accent" slot="footer" onclick="window.location.href='https://errortek.vercel.app';">Home page</Fluent.Button>
+                <Fluent.Button variant="accent" slot="footer" onclick="window.location.href='/';">Home page</Fluent.Button>
 </Fluent.ContentDialog>
 </h1>
 </section>
@@ -42,5 +42,5 @@ No one's here. Try checking the URL and try again.
     .margin-section {
         margin: 25px;
         max-width: 1800px;
-    }  
+    }
 </style>

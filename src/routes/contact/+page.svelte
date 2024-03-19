@@ -1,10 +1,79 @@
-<script>
-  //Imports
-	import * as Fluent from "fluent-svelte";
-	import "fluent-svelte/theme.css";
+<script lang="ts">
+	//Imports
+	import * as Fluent from 'fluent-svelte';
+	import 'fluent-svelte/theme.css';
 
-  //Variables
-  let open = true;
+	//Variables
+	let openTooShortMsg = false;
+  let openTooShortSub = false;
+
+	let email = '';
+	let subject = '';
+	let message = '';
+
+  function validateEmail(email) {
+    const re = /\S+@\S+\.\S+/;
+    return re.test(email);
+  }
+
+	async function sendToDiscord() {
+
+    if (!validateEmail(email)) {
+      // add the code to show the email is not valid message
+      console.error('Email is not valid!');
+      return;
+    }
+
+		if (subject.length < 5) {
+      // add the code to show the subject is not valid message
+			console.error('Subject must be alteast 5 characters long!');
+			return;
+		}
+
+    if (message.length < 25) {
+      // add the code to show the message is not valid message
+      console.error('Message must be alteast 25 characters long!');
+      openTooShortMsg = true;
+      return;
+    }
+
+		const webhookUrl = 'https://ivirius-contact-host.vercel.app/contact';
+		const payload = new FormData();
+    payload.append('email', email);
+    payload.append('subject', subject);
+    payload.append('message', message);
+
+		try {
+      const response = await fetch(webhookUrl, {
+        method: 'POST',
+        body: payload
+      });
+
+      if (!response.ok) {
+        if (response.status === 429) {
+          // add the code to show the rate limited message
+          console.error('Rate limited!');
+          return;
+        }
+        else {
+          // add the code to show the failed to send message
+          console.error('Failed to send message!');
+          return;
+        }
+      }
+
+      const data = await response.json();
+      console.log(data);
+    } catch (error) {
+      // add the code to show the error message
+      console.error('Error:', error);
+    }
+
+    // clear the form
+    email = '';
+    subject = '';
+    message = '';
+	}
 </script>
 
 <!--Head-->
@@ -32,31 +101,40 @@
 	</h1>
 </section>
 
- <section class="margin-section">
-	<h2>
-		<Fluent.InfoBar severity="caution" title="Important!" message="This page is not functional yet." style="max-width:550px;"/>
-	</h2>
-</section>
-
 <!--Ivirius Text Editor Plus-->
 <section class="margin-section">
-        <h1>
-                <Fluent.TextBox placeholder="Email" type="email" style="width: 100%; box-sizing: border-box;"></Fluent.TextBox>
-        </h1>
-        <h2>
-                <Fluent.TextBox placeholder="Subject" style="width: 100%; box-sizing: border-box;"></Fluent.TextBox>
-        </h2>
-        <h3>
-          <Fluent.TextBox placeholder="Message" style="min-height: 150px; width: 100%; box-sizing: border-box;"></Fluent.TextBox>
-        </h3>
+  <h1>
+<Fluent.InfoBar title="Error!" message="Message is too short." bind:openTooShortMsg />
+  </h1>
+	<h1>
+		<Fluent.TextBox
+			placeholder="Email"
+			type="email"
+			style="width: 100%; box-sizing: border-box;"
+			bind:value={email}
+		/>
+	</h1>
+	<h2>
+		<Fluent.TextBox
+			placeholder="Subject"
+			style="width: 100%; box-sizing: border-box;"
+			bind:value={subject}
+		/>
+	</h2>
+	<h3>
+		<Fluent.TextBox
+			placeholder="Message"
+			style="min-height: 150px; width: 100%; box-sizing: border-box;"
+			bind:value={message}
+		/>
+	</h3>
 </section>
 
 <section class="right-section">
-  <Fluent.Button style="width: 60px; float: right;" variant="accent">
-    Send
-  </Fluent.Button>
+	<Fluent.Button style="width: 60px; float: right;" variant="accent" on:click={sendToDiscord}>
+		Send
+	</Fluent.Button>
 </section>
-
 <!--Bottom bar-->
 <section style="padding-top: 10px; padding-bottom: 10px; padding-left: 25px; background: var(--fds-solid-background-base); border-top: 1px solid rgba(205, 205, 205, 0.25); display: flex; flex-direction: column; align-items: flex-start;">
 	<Fluent.TextBlock variant="bodyStrong" style="margin-top: 10px;">
@@ -77,48 +155,44 @@
 
 <!--Styles-->
 <style>
-  /*Import theme*/
-	@import url("https://unpkg.com/fluent-svelte/theme.css");
+	/*Import theme*/
+	@import url('https://unpkg.com/fluent-svelte/theme.css');
 
 	/* Some base styles to get things looking right. */
-	:global(body) 
-  {
-    /*Background color*/
+	:global(body) {
+		/*Background color*/
 		background-color: var(--fds-solid-background-base);
 
-    /*Background image*/
-    background-image: url("https://cdn.discordapp.com/attachments/1141503151808184401/1210350581504278618/1000030651-safeimagekit.jpeg.png?ex=65ea3dd1&is=65d7c8d1&hm=facb30449de806bcb7bb777bd14e81dddb7bf7de9e882144896e0bc80b304153&");
-    
-    /*Background color*/
+		/*Background image*/
+		background-image: url('https://i.spoo.me/825520');
+
+		/*Background color*/
 		color: var(--fds-text-primary);
 	}
 
-  /*Centered section*/
-  .centered-section 
-  {
-    text-align: center;
-    margin: 0 auto;
-    padding: 25px;
-    max-width: 1250px;
-  }
+	/*Centered section*/
+	.centered-section {
+		text-align: center;
+		margin: 0 auto;
+		padding: 25px;
+		max-width: 1250px;
+	}
 
-  /*Right aligned section*/
-  .right-section 
-  {
-    text-align: right;
-    margin: auto;
-    padding: 25px;
-    max-width: 1250px;
-    display: flex;
-    justify-content: flex-end;
-    justify-items: flex-end;
-  }
-  
-  /*Left aligned centered section*/
-  .margin-section 
-  {
-    margin: 0 auto;
-    padding: 25px;
-    max-width: 1250px;
-  }
-  </style>
+	/*Right aligned section*/
+	.right-section {
+		text-align: right;
+		margin: auto;
+		padding: 25px;
+		max-width: 1250px;
+		display: flex;
+		justify-content: flex-end;
+		justify-items: flex-end;
+	}
+
+	/*Left aligned centered section*/
+	.margin-section {
+		margin: 0 auto;
+		padding: 25px;
+		max-width: 1250px;
+	}
+</style>

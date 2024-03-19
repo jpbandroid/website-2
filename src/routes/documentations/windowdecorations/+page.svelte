@@ -67,5 +67,5 @@
     .margin-section {
         margin: 25px;
         max-width: 1800px;
-    }  
+    }
 </style>

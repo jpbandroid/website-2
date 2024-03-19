@@ -2,7 +2,7 @@
   //Imports
 	import * as Fluent from "fluent-svelte";
   import "./styles.css";
-  
+
   //Variables
   let open = true;
 </script>
@@ -99,10 +99,10 @@
 <style>
   /*Import theme*/
 	/*@import url("https://unpkg.com/fluent-svelte/theme.css");*/
-  
+
 
 	/* Some base styles to get things looking right. */
-	:global(body) 
+	:global(body)
   {
     /*Background color*/
 		background-color: var(--fds-solid-background-base);
@@ -118,12 +118,12 @@
   --fds-accent-dark-1: 7, 100%, 47%;
   --fds-accent-dark-2: 7, 100%, 35%;
   --fds-accent-dark-3: 7, 100%, 27%;
-   */ 
-    
+   */
+
     /*Background color*/
-		color: var(--fds-text-primary); 
+		color: var(--fds-text-primary);
 	}
-  
+
   /* Global Variables */
 :root {
 	/* Accent Colors */
@@ -135,9 +135,9 @@
   --fds-accent-dark-2: 7, 100%, 35% !important;
   --fds-accent-dark-3: 7, 100%, 27% !important;
 }
-  
+
   /*Centered section*/
-  .centered-section 
+  .centered-section
   {
     text-align: center;
     margin: 0 auto;
@@ -146,10 +146,10 @@
   }
 
   /*Left aligned centered section*/
-  .margin-section 
+  .margin-section
   {
     margin: 0 auto;
     padding: 25px;
     max-width: 1250px;
   }
-</style>   
+</style>
